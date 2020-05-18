@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    overflow-y: scroll;
+}
+
+/* font-color */
+body, button, select, textarea, input{
+    color:#2d2d2d;
+}
+
+/* form element*/
+button, select, textarea, input{
+    border:1px solid #aaa;
+}
+
+nav a{
+    /* text-decoration: none; */
+    color:inherit;
+}
+
+
+select{
+    padding:4px;
+}
+
+
+header{
+    padding:1rem 0;
+    background-color: #fcfcfc;
+}
+
+.brand{
+    font-weight: bold;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #2d2d2d;
+}
+
+main{
+    margin-top: 3rem;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+.container{
+    max-width: 70rem;
+    margin: 0 auto;
+    padding:0 1rem;
+}
+
+.row{
+    display: flex;
+}
+
+.end{
+    justify-content: flex-end;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.gnb-container{
+    display: flex;
+    align-items: center;
+}
+
+.gnb{
+    margin-left: 3rem;
+}
+
+.gnb a:not(:last-child){
+    margin-right:1rem;
+}
+
+.unb a:not(:last-child){
+    margin-right:1rem;
+}
+
+.unb {
+    display: flex;
+    align-items: center;
+}
+
+.fnb a:not(:last-child){
+    margin-right:1rem;
+}
+
+.fnb a{
+    color:#fcfcfc;
+}
