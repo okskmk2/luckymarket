@@ -8,7 +8,7 @@ import {
   Button,
 } from "@material-ui/core";
 
-const LoginForm = (props) => {
+const SignUpForm2 = (props) => {
   return (
     <Fragment>
       <AppBar position="static">
@@ -53,4 +53,4 @@ const LoginForm = (props) => {
   );
 };
 
-export default LoginForm;
+export default SignUpForm2;
